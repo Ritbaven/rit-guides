@@ -24,4 +24,11 @@ Choose a game to view its guide.
     </span>
     <span class="game-card__title">Mario vs. Luigi</span>
   </a>
+  <a class="game-card" href="../sm64coopdx/">
+    <span class="game-card__media">
+      <img class="game-card__image" src="../assets/images/sm64coopdx-hero.webp" alt="" aria-hidden="true">
+      <img class="game-card__logo" src="../assets/images/sm64coopdx-logo.png" alt="" aria-hidden="true">
+    </span>
+    <span class="game-card__title">SM64CoopDX</span>
+  </a>
 </div>

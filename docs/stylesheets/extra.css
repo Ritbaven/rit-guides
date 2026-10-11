@@ -66,6 +66,39 @@
   font-size: 0.72rem;
 }
 
+.guide-screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.guide-screenshot {
+  overflow: hidden;
+  margin: 1rem 0;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1);
+}
+
+.guide-screenshot-grid .guide-screenshot {
+  margin: 0;
+}
+
+.md-typeset .guide-screenshot img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.guide-screenshot figcaption {
+  padding: 0.65rem 0.8rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+}
+
 .game-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
