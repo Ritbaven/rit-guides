@@ -15,6 +15,8 @@ Mario vs. Luigi is a remake of the multiplayer mode from New Super Mario Bros. o
 
 You do not need a ROM or an emulator. The download already has everything you need to play.
 
+> **FYI — Play in your browser:** You can also [play Mario vs. Luigi on itch.io](https://ipodtouch0218.itch.io/nsmb-mariovsluigi) without installing it. The browser version supports online multiplayer.
+
 ## Before you start
 
 - A Windows PC
@@ -59,4 +61,4 @@ The Thor controls were picked up automatically and the game worked without a ROM
 
 This is still the Windows version of the game. There is no Android version in this download, so it may work differently on other Android handhelds.
 
-<p class="game-sources"><strong>Sources:</strong> <a href="https://github.com/ipodtouch0218/NSMB-MarioVsLuigi" target="_blank" rel="noopener">Official project and controls</a> · <a href="https://github.com/ipodtouch0218/NSMB-MarioVsLuigi/releases/latest" target="_blank" rel="noopener">Latest release</a> · <a href="https://www.steamgriddb.com/game/5339613" target="_blank" rel="noopener">SteamGridDB artwork</a> · <a href="https://gamesdb.launchbox-app.com/games/details/421634-mario-vs-luigi" target="_blank" rel="noopener">LaunchBox game details</a></p>
+<p class="game-sources"><strong>Sources:</strong> <a href="https://github.com/ipodtouch0218/NSMB-MarioVsLuigi" target="_blank" rel="noopener">Official project and controls</a> · <a href="https://github.com/ipodtouch0218/NSMB-MarioVsLuigi/releases/latest" target="_blank" rel="noopener">Latest release</a> · <a href="https://ipodtouch0218.itch.io/nsmb-mariovsluigi" target="_blank" rel="noopener">itch.io browser version</a> · <a href="https://www.steamgriddb.com/game/5339613" target="_blank" rel="noopener">SteamGridDB artwork</a> · <a href="https://gamesdb.launchbox-app.com/games/details/421634-mario-vs-luigi" target="_blank" rel="noopener">LaunchBox game details</a></p>
