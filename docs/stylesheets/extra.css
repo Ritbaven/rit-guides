@@ -321,6 +321,120 @@
   margin-top: 1.5rem;
 }
 
+.game-filter {
+  margin: 1.5rem 0;
+  padding: 1rem 1.1rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+  background: var(--md-code-bg-color);
+}
+
+.game-filter__heading {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.md-typeset .game-filter__heading h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.md-typeset .game-filter__heading p {
+  margin: 0.25rem 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+}
+
+.game-filter__clear {
+  flex: 0 0 auto;
+  padding: 0.35rem 0.6rem;
+  border: 0.05rem solid var(--md-default-fg-color--lighter);
+  border-radius: 0.35rem;
+  color: var(--md-accent-fg-color);
+  background: var(--md-default-bg-color);
+  font: inherit;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.game-filter__clear:hover:not(:disabled),
+.game-filter__clear:focus-visible {
+  border-color: var(--md-accent-fg-color);
+}
+
+.game-filter__clear:disabled {
+  color: var(--md-default-fg-color--lighter);
+  cursor: default;
+}
+
+.game-filter__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.game-filter__option {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.game-filter__option input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.game-filter__option span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.8rem;
+  padding: 0.25rem 0.7rem;
+  border: 0.05rem solid var(--md-default-fg-color--lighter);
+  border-radius: 999px;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: background-color 125ms, border-color 125ms, color 125ms;
+}
+
+.game-filter__option input:checked + span {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-primary-bg-color);
+  background: var(--md-accent-fg-color);
+}
+
+.game-filter__option input:focus-visible + span {
+  outline: 0.12rem solid var(--md-accent-fg-color);
+  outline-offset: 0.12rem;
+}
+
+.md-typeset .game-filter__status {
+  margin: 0.8rem 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.68rem;
+}
+
+.md-typeset .game-filter__empty {
+  margin: 1.5rem 0 0;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+  background: var(--md-code-bg-color);
+}
+
 .game-card {
   overflow: hidden;
   border: 0.05rem solid var(--md-default-fg-color--lightest);
@@ -420,5 +534,13 @@
   .md-typeset .game-hero__logo {
     width: 78%;
     height: 68%;
+  }
+
+  .game-filter__heading {
+    display: grid;
+  }
+
+  .game-filter__clear {
+    justify-self: start;
   }
 }

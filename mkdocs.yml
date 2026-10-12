@@ -24,6 +24,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/game-filters.js
+
 plugins:
   - search
 
