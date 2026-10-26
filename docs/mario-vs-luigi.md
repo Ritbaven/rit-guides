@@ -11,6 +11,8 @@
   <span class="game-tag">Android</span>
 </div>
 
+<p class="game-last-edited">Last edited: {{ git_revision_date_localized }}</p>
+
 Mario vs. Luigi is a remake of the multiplayer mode from New Super Mario Bros. on the Nintendo DS. You can play online with 2 to 10 players.
 
 You do not need a ROM or an emulator. The download already has everything you need to play.

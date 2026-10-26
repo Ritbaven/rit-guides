@@ -13,6 +13,8 @@
   <span class="game-tag">Android</span>
 </div>
 
+<p class="game-last-edited">Last edited: {{ git_revision_date_localized }}</p>
+
 Retro Rewind adds a lot of tracks to Mario Kart Wii, including tracks from older and newer Mario Kart games. You can also play online.
 
 This guide uses WheelWizard and WiiCompiled. You do not need to set up Dolphin for these steps.

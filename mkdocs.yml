@@ -29,6 +29,12 @@ extra_javascript:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      type: date
+      timezone: America/Los_Angeles
+      exclude:
+        - index.md
+        - games.md
 
 nav:
   - Home: index.md

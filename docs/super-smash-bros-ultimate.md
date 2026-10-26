@@ -10,6 +10,8 @@
   <span class="game-tag">PC</span>
 </div>
 
+<p class="game-last-edited">Last edited: {{ git_revision_date_localized }}</p>
+
 OpenSmash-Ultimate turns Super Smash Bros. Ultimate into a native Windows program through static recompilation instead of emulation. The installer builds the port on your PC from the game files you provide.
 
 ## Before you start

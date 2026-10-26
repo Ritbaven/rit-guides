@@ -10,6 +10,8 @@
   <span class="game-tag">PC</span>
 </div>
 
+<p class="game-last-edited">Last edited: {{ git_revision_date_localized }}</p>
+
 SM64CoopDX, also called Super Mario 64 Coop Deluxe, is an online multiplayer version of the Super Mario 64 PC port. It lets players explore the game together, supports up to 16 players, and includes widescreen, uncapped frame rates, customization, and Lua mods.
 
 ## Before you start
