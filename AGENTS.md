@@ -8,6 +8,11 @@
 - Do not add dependencies unless they are necessary for a requested feature. Keep `requirements.txt` minimal.
 - Never edit the generated `site/` directory. Edit files under `docs/` and `mkdocs.yml`, then rebuild.
 
+## Writing style
+
+- Never use em dashes in site copy, interface text, alt text, metadata, or contributor examples. Use periods, commas, colons, semicolons, or parentheses instead.
+- Before finishing any content change, run `rg -n "\x{2014}" AGENTS.md docs mkdocs.yml README.md` and remove every match.
+
 ## Canonical structure
 
 - `mkdocs.yml`: site configuration and navigation.

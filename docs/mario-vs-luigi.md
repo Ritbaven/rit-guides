@@ -17,7 +17,7 @@ Mario vs. Luigi is a remake of the multiplayer mode from New Super Mario Bros. o
 
 You do not need a ROM or an emulator. The download already has everything you need to play.
 
-> **FYI — Play in your browser:** You can also [play Mario vs. Luigi on itch.io](https://ipodtouch0218.itch.io/nsmb-mariovsluigi) without installing it. The browser version supports online multiplayer.
+> **FYI: Play in your browser.** You can also [play Mario vs. Luigi on itch.io](https://ipodtouch0218.itch.io/nsmb-mariovsluigi) without installing it. The browser version supports online multiplayer.
 
 ## Before you start
 
