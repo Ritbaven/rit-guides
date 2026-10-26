@@ -44,6 +44,13 @@ Choose a game to view its guide.
     </span>
     <span class="game-card__title">SM64CoopDX</span>
   </a>
+  <a class="game-card" href="../super-smash-bros-ultimate/" data-tags="Online Capable, PC">
+    <span class="game-card__media">
+      <img class="game-card__image" src="../assets/images/super-smash-bros-ultimate-hero.webp" alt="" aria-hidden="true">
+      <img class="game-card__logo" src="../assets/images/super-smash-bros-ultimate-logo.png" alt="" aria-hidden="true">
+    </span>
+    <span class="game-card__title">Super Smash Bros. Ultimate</span>
+  </a>
 </div>
 
 <p class="game-filter__empty" data-game-filter-empty hidden>No games match every selected tag. Try removing a filter.</p>
